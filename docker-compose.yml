@@ -1,6 +1,6 @@
 version: '2'
 services:
-  dockerapp:
+  docker:
     build: .
     ports:
       - "5000:5000"
